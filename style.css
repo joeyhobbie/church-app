@@ -1,3 +1,16 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -10,43 +23,100 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    background-color: #222;
-    color: white;
-    padding: 10px 30px;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.logo-title {
-    display: flex;
-    align-items: center;
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
-
 .logo {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.navbar {
+  background-color: #34495e;
+  padding: 10px 0;
 }
 
-nav a {
-    text-decoration: none; 
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
-nav a:hover{
-    color: #00bfff;
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar a:hover {
+  color: #1abc9c;
+  border-bottom: 2px solid #1abc9c;
+}
+
+.navbar .active {
+  border-bottom: 2px solid #1abc9c;
 }
 
 main {
-    padding: 30px;
-    text-align: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.welcome h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.welcome p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.about {
+  background-color: white;
+  padding: 30px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: #2c3e50; /* same as header for consistency */
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #1abc9c; /* teal accent */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 0.95em;
 }
