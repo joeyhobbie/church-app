@@ -10,7 +10,7 @@ fetch('members.json')
       memberDiv.innerHTML = `
         <img src="${member.image}" alt="${member.name}">
         <h3>${member.name}</h3>
-        <p>${member.title}</p>
+        <p>${member.phone}</p>
         <p><a href="mailto:${member.email}">${member.email}</a></p>
       `;
 
