@@ -1,32 +1,60 @@
-[
+{
+  "families": [
     {
+      "familyName": "The Hobbie Family",
+      "familyImage": "Images/Hobbie-family.jpg",
+      "members": [
+        {
         "name": "Johnny Hobbie",
         "email": "johnny.hobbie@gmail.com",
         "image": "directory-pictures/Johnny_Hobbie.PNG",
-        "phone": "870-390-0505"
+        "phone": "870-390-0505",
+        "address": "533 Berg Ave, Camden, AR, 71701"
     },
     {
         "name": "Angela Hobbie",
         "email": "angela.hobbie@gmail.com",
         "image": "directory-pictures/Angela_Hobbie.PNG",
-        "phone": "870-390-0455"
+        "phone": "870-390-0455",
+        "address": "533 Berg Ave, Camden, AR, 71701"
+
     },
     {
         "name": "Joey Hobbie",
         "email": "joey.hobbie@gmail.com",
         "image": "directory-pictures/Joey_Hobbie.jpg",
-        "phone": "870-818-5633"
+        "phone": "870-818-5633",
+        "address": "533 Berg Ave, Camden, AR, 71701"
+
     },
     {
         "name": "Andy Hobbie",
         "email": "andy.hobbie@gmail.com",
         "image": "directory-pictures/Andy_Hobbie.jpg",
-        "phone": "870-818-3603"
+        "phone": "870-818-3603",
+        "address": "533 Berg Ave, Camden, AR, 71701"
     },
     {
         "name": "Abby Hobbie",
         "email": "abby.hobbie@gmail.com",
         "image": "directory-pictures/Abby_Hobbie.jpg",
-        "phone": "870-390-0730"
+        "phone": "870-390-0730",
+        "address": "533 Berg Ave, Camden, AR, 71701"
     }
-]
+      ]
+    },
+    {
+      "familyName": "The Smith Family",
+      "familyImage": "Images/Smith-family.jpg",
+      "members": [
+        {
+            "name": "Abby Smith",
+            "email": "abby.Smith@gmail.com",
+            "image": "directory-pictures/Abby_Smith.jpg",
+            "phone": "870-390-1111",
+            "address": "950 E. Market Ave, Searcy, AR, 71301"
+        }
+      ]
+    }
+  ]
+}
